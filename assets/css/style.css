@@ -1,0 +1,17 @@
+h1 {
+    height: 100px;
+    width: 300px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    width: 960px;
+    background: #ffffff;
+    border: 1px #cccccc;
+
+}
