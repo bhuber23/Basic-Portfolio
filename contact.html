@@ -4,39 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Brittany Huber</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
   <header>
-      <h1>Brittany Huber</h1>
-    </header>
-
-  <ul>
-      <li>About</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
-  </ul>
-
-  <div class="container">
-       <h2>Contact</h2>
+    <div class="links">
+        <h1>Brittany Huber</h1>
+    
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+      
     </div>
-    <div class="row">
-        <div class="column">
+  </header>
+
+  <section>
+       <h2>Contact</h2>
+    
+    <div class="container">
             <form action="action_page.php">
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="John Smith">
+            <input type="text" id="name" placeholder="John Smith" style="width:900px">
+            <br>
             <label for="email">Email</label>
-            <input type="text" id="email" placeholder="example@gmail.com">
+            <br>
+            <input type="text" id="email" placeholder="example@gmail.com" style="width:900px">
             <label for="message">Message</label>
-            <textarea id="message" name="Message" placeholder="Your Message Here"></textarea>
+            <br>
+            <br>
+            <textarea id="message" name="Message" placeholder="Your Message Here" cols="148" rows="15"></textarea>
+            <br>
             <input type="submit" value="Submit">
             </form>
-        </div>
     </div>
+    
 
-  </div>
+  </section>
 
-
+  <footer>Copyright ©</footer>
 </body>
 </html>
